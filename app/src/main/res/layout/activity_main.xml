@@ -21,6 +21,7 @@
         tools:context="startings.galangarbis.com.bekupdua.MainActivity">
 
         <ImageView
+            android:id="@+id/imagesatu"
             android:layout_weight="0.4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
