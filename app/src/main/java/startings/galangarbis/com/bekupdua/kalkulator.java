@@ -21,13 +21,13 @@ public class kalkulator extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_layout);
-        myedit1 = (EditText) findViewById(R.id.editsatu);
-
-        final TextView tv = (TextView) findViewById(R.id.texttiga);
-
-        myedit2 = (EditText) findViewById(R.id.editdua);
-
-        myButton = (Button) findViewById(R.id.buttonsatu);
+//        myedit1 = (EditText) findViewById(R.id.editsatu);
+//
+//        final TextView tv = (TextView) findViewById(R.id.texttiga);
+//
+//        myedit2 = (EditText) findViewById(R.id.editdua);
+//
+//        myButton = (Button) findViewById(R.id.buttonsatu);
 
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +39,7 @@ public class kalkulator extends AppCompatActivity {
 
                 int hasil;
                 hasil = valueint + valueint2;
-                tv.setText(hasil+"");
+//                tv.setText(hasil+"");
             }
         });
     }
